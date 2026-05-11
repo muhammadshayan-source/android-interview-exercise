@@ -1,4 +1,4 @@
-package com.sadapay.live_coding.sdk
+package com.sadapay.live_coding.networking
 
 import okhttp3.Interceptor
 import okhttp3.MediaType.Companion.toMediaType

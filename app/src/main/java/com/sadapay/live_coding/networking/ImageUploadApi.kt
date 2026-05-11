@@ -1,4 +1,4 @@
-package com.sadapay.live_coding.sdk
+package com.sadapay.live_coding.networking
 
 import okhttp3.MultipartBody
 import retrofit2.http.Multipart

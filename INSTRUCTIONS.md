@@ -34,9 +34,9 @@ sdk.captureImage(
 
 ## Upload API (Pre-built)
 
-A complete Retrofit API is provided and ready to use. It is backed by a `MockInterceptor` that returns a fake success response after a 1-second delay — no real server needed.
+A complete Retrofit API is provided in a separate `com.sadapay.live_coding.networking` package and ready to use. It is backed by a `MockInterceptor` that returns a fake success response after a 1-second delay — no real server needed. The SDK package itself contains only the image capture surface; networking is intentionally kept outside it.
 
-### Available classes in `com.sadapay.live_coding.sdk`:
+### Available classes in `com.sadapay.live_coding.networking`:
 
 **`ImageUploadApi`** — Retrofit interface with a multipart upload endpoint:
 ```kotlin
